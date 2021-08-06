@@ -1,0 +1,10 @@
+# keys can be any filename and they *will* be committed by somebody, so we'll
+# use an allow-list here.
+
+# forbid all...
+**
+
+# ...except these:
+!.gitignore
+!gendeploykey.py
+!README.md
